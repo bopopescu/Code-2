@@ -32,5 +32,8 @@ Git Tutuorial
 	Check the branch we are working on 
 	#git branch
     
-	
+###############################################
+New creation of the folder
+Create a folder --> Define origin --> git fetch --> git pull  
+create folder/file --> add file to git --> make changes to file --> git commit -m "Message" --> git push -u origin master 	
 
