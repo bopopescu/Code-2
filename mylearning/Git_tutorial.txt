@@ -1,0 +1,36 @@
+Git Tutuorial
+#########################
+
+
+
+1) Create Github account
+2) Download git 
+3) Create a directory and move inside directory
+   #mkdir myproject
+   #cd myproject
+4) Initialise Git in the folder
+   #git init
+5) Create a code example or file to upload
+   #touch test
+6) Check git status
+   #git status
+  Here you will see files that are new created and but not yet under version control.
+7) Add files to git version control
+   #git add <file_name>
+8) Once you add file this file is put into staging enviornment.
+   #git status
+9) Commit your Changes
+   #git commit -m "My Changes"
+   Basically Creating the Code ---> Adding the file under Version Control and saving in Staging ---> Commit the changes
+   This all steps are done in local system.
+10) Pushing the changes to remote server.
+    Create a public repository on Github.Copy the URL of the repository.
+	#git remote add origin http://github.com/myaccount/newrepo.git
+	#git push -u origin master
+11) Creating a branch in local and pushing it to Remote server 
+    #git checkout -b <my_branch_names>
+	Check the branch we are working on 
+	#git branch
+    
+	
+
